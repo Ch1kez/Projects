@@ -82,7 +82,7 @@ def DB_maker(name, link, header):
                         count_smile += 1
                     if smile == '':
                         smile = '❗'
-                    news = f"{smile}{header}\nИсточник: [{str(name)}]({link})"
+                    news = f"{smile}{header}\n__Специально для семьи Кагановых__\nИсточник: [{str(name)}]({link})"
                     # bot.send_message(689331353, news, parse_mode='Markdown', disable_web_page_preview=True)
                     id = 0
                     while id < len(user_id):
