@@ -86,7 +86,7 @@ def DB_maker(name, link, header):
                     # bot.send_message(689331353, news, parse_mode='Markdown', disable_web_page_preview=True)
                     id = 0
                     while id < len(user_id):
-                        bot.send_message(user_id[id], news, parse_mode='Markdown', disable_web_page_preview=True)
+                        bot.send_message(user_id[id], news, parse_mode='Markdown', disable_web_page_preview=True, disable_notification=True)
                         id += 1
                     print('Новость обновлена - ' + str(name))
                     print('__________________________________________________________________')
